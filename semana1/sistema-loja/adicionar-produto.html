@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Adicionar Produto</title>
 </head>
+
 <body>
-    <a href="index.html"> ...HOME</a>
-    <h2>ADICIONAR PRODUTOS</h2>
+    
+    <!-- Cabeçalho -->
+    <div id="cabecalho">
+        <div id="logo">
+            <h1>MPB Vinil</h1>
+            <p>A Casa da Música Popular Brasileira</p>
+        </div>
 
-    <form>
-        <label for="produto">Produto</label><br>
-        <input type="text" name="produto" id="produto"><br>
-        <label for="descricao">Descrição</label><br>
-        <input type="text" name="descricao" id="descricao"><br>
-        <label for="preco">Preço</label><br>
-        <input type="text" name="preco" id="preco"><br>
-        <label for="disponivel">Disponível</label><br>
-        <input type="text" name="disponivel" id="disponivel"><br>
-        <button type="submit">ENVIAR</button>
-    </form>
+        <div id="spotify">
+            <span><a href="#">Acesse nosso Spotify</a></span>
+        </div>
 
+    </div>
+    <div id="barra-inferior"></div>
+
+    <!-- Fim Cabeçalho -->
+
+    <!-- Menu -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="estoque.html">CONTROLE DE ESTOQUE</a></li>
+            <li><a href="">ADICIONAR PRODUTO</a></li>
+            <li><a href="funcionarios.html">FUNCIONÁRIOS</a></li>
+        </ul>
+    </div>
+
+    <!-- Fim Menu -->
+
+
+    <!-- Adicionar Produto -->
+
+    
+    <div id="adicionar-produto">
+        <h2 class="nome-pagina">ADICIONAR PRODUTOS</h2>
+        <form>
+            <label for="produto">Produto</label>
+            <input type="text" name="produto" id="produto">
+            <label for="descricao">Descrição</label>
+            <input type="text" name="descricao" id="descricao">
+            <label for="preco">Preço</label>
+            <input type="text" name="preco" id="preco">
+            <label for="disponivel">Disponível</label>
+            <input type="text" name="disponivel" id="disponivel">
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+
+    <!-- Fim Adicionar Produto -->
+
+
+    <!-- Footer -->
+    
+    <div id="rodape">
+        <p>Todos os direitos reservados. 2020 - JJ</p>
+    </div>
+
+    <!-- Fim Footer -->
 </body>
+
 </html>
