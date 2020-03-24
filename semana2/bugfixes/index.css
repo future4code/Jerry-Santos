@@ -1,0 +1,178 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+#descricao {
+    display: block;
+    margin: 0 auto;
+    width:190px;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 50px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    width: 25px;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    
+}
+
+
+a > .botao-amarelo{
+    
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone {
+    height: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    padding-top: 100px;
+    height: 40vh;
+    text-align: center;
+}
+
+#container-de-descricao> ol {
+    padding: 30px 0px;
+}
+
+#lista {
+    list-style-position: inside;
+    
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+    padding-top: 150px;
+    height: 40vh;
+    
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+td button:hover {
+    background-color: #bb9a05;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+#container-tabela {
+    text-align: center;
+}
+
+#container-tabela table {
+    width: 850px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    margin-top: 200px;
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
