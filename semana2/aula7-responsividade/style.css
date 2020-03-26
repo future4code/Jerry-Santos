@@ -1,0 +1,200 @@
+/*  GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+.container {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100vw;
+    display: grid;
+    grid-template-columns: 200px 4fr;
+    grid-template-rows: 1fr 8fr
+}
+
+/* FIM GERAL */
+
+
+/* MENU LATERAL */
+
+.menu {
+    background-color: rgb(88, 88, 88);
+    grid-row: 1 / 10;
+    padding: 10px;
+    text-align: justify;
+}
+
+ul li {
+    list-style-position: inside;
+}
+span {
+    display: block;
+    margin: 20px;
+}
+
+
+
+/* FIM MENU */
+
+
+/* HEADER */
+
+.header {
+    background-color: red;
+    grid-area: 1 / 2 / 2 / 6;
+}
+
+/* FIM HEADER */
+
+
+/* MAIN */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item1 {
+    background-color: blue;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#item2 {
+    background-color: yellow;
+}
+
+#item3 {
+    background-color: green;
+}
+
+#item4 {
+    background-color: blue;
+}
+
+#item5 {
+    background-color: yellow;
+}
+
+#item6 {
+    background-color: green;
+}
+
+.session {
+    grid-column: 1 / 4;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+}
+
+#item7 {
+    background-color: black;
+    color: white;
+}
+
+#item8 {
+    background-color: black;
+    color: white;
+    
+}
+
+/* FIM MAIN */
+
+
+/* RESPONSIVO */
+
+
+@media screen and (max-width: 860px) {
+    
+
+    .main {
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr;
+    }
+   
+
+    #item1 {
+        grid-area: 1 / 1 / 7 / 2;
+    }
+
+    #item2 {
+        grid-area: 1 / 2 / 7 / 4;
+    }
+
+    #item3 {
+        grid-area: 7 / 1 / 13 / 4;
+    }
+
+    #item4 {
+        grid-area: 13 / 1 / 19 / 2;
+    }
+
+    #item5 {
+        grid-area: 13 / 2 / 19 / 4;
+    }
+
+    #item6 {
+        grid-area: 19 / 1 / 25 / 4;
+    }
+
+    .session {
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 2fr 2fr;
+    }
+
+    #item7 {
+        grid-area: 1 / 1 / 20 / 2;
+    }
+
+    #item8 {
+        grid-area: 1 / 2 / 20 / 4;
+    }
+
+    #item9 {
+        grid-area: 26 / 1 / 32 / 2;
+    }
+
+    #item10 {
+        grid-area: 26 / 2 / 32 / 4;
+    }
+
+    #item11 {
+        grid-area: 32 / 1 / 38 / 4;
+    }
+
+}
+
+/* @media screen and (max-width: 300px) {
+    .menu {
+        display: none;
+    }
+
+    .header {
+        background-color: red;
+        grid-area: 1 / 1 / 2 / 6;
+    }
+
+
+} */
+
+/* FIM RESPONSIVO */
