@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+}
+
+a {
+    color: #80cbc4;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+/* Cabeçalho */
+
+#cabecalho {
+    width: 100vw;
+    height: 12vh;
+    background-color: #006064;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.233);
+}
+
+#jerry {
+    color: #b2dfdb;
+    margin-left: 1em;
+    padding-top: 0.2em;
+    font-size: 3em;
+}
+
+#foto-perfil {
+    width: 200px;
+    display: block;
+    margin: 0 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: px solid #26a69a;
+    z-index: 100;    
+}
+
+/* Fim Cabeçalho */
+
+
+/* Menu */
+
+#menu {
+    height: 6vh;
+    background-color: #ffffff;
+    margin-top: 9px;
+}
+
+#menu a {
+    margin: 20px;
+    color: rgb(21, 88, 51);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+/* Fim Menu */
+
+
+/* Conteúdo Principal */
+
+#main {
+    width: 100vw;
+    height: 36vh;
+    background-color: #00796b;
+    margin-top: -270px;
+    border-top: 5px solid rgba(0, 0, 0, 0.233);
+    padding-top: 30px;
+}
+
+#sobre-mim {
+    color: #e0f2f1;
+    display: block;
+    margin: 0 400px;
+    font-size: 1.2em;
+}
+
+.item {
+    font-size: 2em;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #4db6ac;
+}
+
+.section {
+    width: 100vw;
+    height: 36vh;
+}
+
+#ensino {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.coluna2 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.lista {
+    margin-top: 60px;
+    list-style: none;
+}
+
+.lista li {
+    color: #00695c;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/* Fim Principal */
+
+
+/* Projetos */
+
+#projetos {
+    text-align: center;
+    background-color: #009688;
+    height: 42vh;
+    
+}
+
+#projetos > h2 {
+    color: #e0f2f1;
+    padding-top: 40px;
+}
+
+.projeto-imagem {
+    width: 300px;
+    margin: 30px;
+}
+
+/* Fim Projetos */
+
+
+/* Habilidades */
+
+#habilidades {
+    text-align: center;
+    height: 42vh;
+
+}
+div#habilidades > h2 {
+    margin-bottom: 80px;
+}
+
+.item-habilidades {
+    margin-top: 30px;
+    color: #004d40;
+    font-weight: 600;
+}
+
+/* Fim Habilidades */
+
+
+/* Contato */
+
+#contato {
+    text-align: center;
+    background-color: #00695c;
+    height: 50vh;
+}
+
+#contato > h2 {
+    color: #e0f2f1;
+    padding-top: 50px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+
+label {
+    color: white;
+    text-align: left;
+}
+
+
+/* Fim Contato */
+
+
+/* Rodapé */
+
+#rodape {
+    padding-top: 20px;
+    height: 5vh;
+    text-align: right;
+}
+
+.social {
+    color: #004d40;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin: 30px;
+}
+
+/* Fim do Rodapé */
+
+
+
+/* --------------------------------------- */
+
+/* Páginas dos Projetos */
+
+.projeto {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img.foto-na-pagina {
+    width: 600px;
+    display: block;
+    margin: 50px auto;
+    
+
+}
+
+.descricao-projeto {
+    color: #00695c;
+    font-size: 2em;
+}
+
+.lista-tecnologias {
+    margin-bottom: 20px;
+}
+
+.tecnologias {
+    font-size: 1.5em;
+    color: #26a69a;
+    margin-bottom: 10px;
+}
+/*  Fim Páginas dos Projetos */
