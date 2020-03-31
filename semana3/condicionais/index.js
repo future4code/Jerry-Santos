@@ -106,6 +106,8 @@
 
 
 // 5.
+// link para o diagrama desenhado https://drive.google.com/file/d/1NWoOYs_BinXLHA2g2luBDZgU4Uf9GCln/view?usp=sharing
+
 const ossos = prompt("O animal possui ossos? [s/n]");
 
 if(ossos == "n") {
