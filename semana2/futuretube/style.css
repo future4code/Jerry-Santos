@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+}
+
+/* Header */
+
+header {
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(24, 23, 23);
+    color: rgb(255, 72, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#busca {
+    position: absolute;
+    right: 50px;
+}
+
+#busca button {
+    width: 3rem;
+    height: 1.2rem;
+    font-size: 0.8em;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+
+#busca button:hover {
+    background-color: rgb(158, 40, 4);
+}
+
+
+/* Fim do Header */
+
+
+/* Principal */
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2.5rem 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+article video {
+    width: 12rem;
+}
+
+article p {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+/* Fim do Principal */
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(17, 17, 17);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 72, 0);
+
+}
+
+/* Fim Footer */
+
+/* -------------------------------- */
+
+
+
+/* Página Vídeos */
+
+main.pagina-video {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-video {
+    font-size: 3rem;
+    padding: 3rem;
+    color: white;
+}
+
+.videos {
+    width: 60rem;
+}
+
+/* Fim da Página Vídeos */
