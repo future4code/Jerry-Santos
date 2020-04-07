@@ -16,3 +16,7 @@ com números pares e ímpares. As respostas do console serão respectivamente
 "Quantidade total de números 14"
 6
 8 */
+
+/* 4. O programa vai percorrer todos os itens de um array, comparar se o número é
+maior que as variáveis para que possa assim definir um novo valor para 
+as variáveis numero1 e numero2. A resposta no console será 1590 e 1590; */
