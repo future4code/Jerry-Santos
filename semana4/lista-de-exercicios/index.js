@@ -46,15 +46,47 @@ com uma função da seguinte forma*/
 // console.log(resultado)
 
 // 3.
-function classificaTriangulo(a, b, c) {
-    if(a === b && a === c) {
-        return "Triângulo equilátero"
-    } else if (a !== b && b !== c && a !== c) {
-        return "Triângulo escaleno"
+// function classificaTriangulo(a, b, c) {
+//     if(a === b && a === c) {
+//         return "Triângulo equilátero"
+//     } else if (a !== b && b !== c && a !== c) {
+//         return "Triângulo escaleno"
+//     } else {
+//         return "Triângulo isósceles"
+//     }
+// }
+
+// let resultado = classificaTriangulo(4, 4, 4);
+// console.log(resultado);
+
+// 4.
+
+let numeros = (a,b) => {
+    
+    if(a > b) {
+       console.log("O maior é " + a)
     } else {
-        return "Triângulo isósceles"
+        console.log("O maior é " + b)
     }
+
+    if(a % b === 0 ) {
+        console.log(a + " é divisível por " + b)
+    } else {
+        console.log(a + " não é divisível por " + b)
+    }
+
+    if(b % a === 0) {
+        console.log(b + " é divisível por " + a)
+    } else {
+        console.log(b + " não é divisível por " + a)
+    }
+
+    if(a > b) {
+        console.log("A diferença entre eles é " + (a - b))
+    } else {
+        console.log("A diferença entre eles é " + (b - a))
+    }
+    
 }
 
-let resultado = classificaTriangulo(4, 4, 4);
-console.log(resultado);
+numeros(15, 30)
