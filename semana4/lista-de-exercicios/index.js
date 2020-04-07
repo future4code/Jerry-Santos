@@ -29,3 +29,18 @@ as variáveis numero1 e numero2. A resposta no console será 1590 e 1590; */
 // c. true
 // d. true
 // e. true
+
+/* 2. O código não definia o valor da const quantidadeDeNumerosPares
+e quando definido gerava um loop infinito a melhor forma de implementar seria
+com uma função da seguinte forma*/
+
+function quantidadeDeNumerosPares(quantidade) {
+    array = []
+    for(i=0; i < quantidade; i++){
+        array.push(i*2)
+    }
+    return array
+}
+
+let resultado = quantidadeDeNumerosPares(5)
+console.log(resultado)
