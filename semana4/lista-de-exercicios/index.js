@@ -34,13 +34,27 @@ as variáveis numero1 e numero2. A resposta no console será 1590 e 1590; */
 e quando definido gerava um loop infinito a melhor forma de implementar seria
 com uma função da seguinte forma*/
 
-function quantidadeDeNumerosPares(quantidade) {
-    array = []
-    for(i=0; i < quantidade; i++){
-        array.push(i*2)
+// function quantidadeDeNumerosPares(quantidade) {
+//     array = []
+//     for(i=0; i < quantidade; i++){
+//         array.push(i*2)
+//     }
+//     return array
+// }
+
+// let resultado = quantidadeDeNumerosPares(5)
+// console.log(resultado)
+
+// 3.
+function classificaTriangulo(a, b, c) {
+    if(a === b && a === c) {
+        return "Triângulo equilátero"
+    } else if (a !== b && b !== c && a !== c) {
+        return "Triângulo escaleno"
+    } else {
+        return "Triângulo isósceles"
     }
-    return array
 }
 
-let resultado = quantidadeDeNumerosPares(5)
-console.log(resultado)
+let resultado = classificaTriangulo(4, 4, 4);
+console.log(resultado);
