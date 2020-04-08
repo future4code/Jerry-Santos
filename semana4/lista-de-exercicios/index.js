@@ -61,32 +61,52 @@ com uma função da seguinte forma*/
 
 // 4.
 
-let numeros = (a,b) => {
+// let numeros = (a,b) => {
     
-    if(a > b) {
-       console.log("O maior é " + a)
-    } else {
-        console.log("O maior é " + b)
-    }
+//     if(a > b) {
+//        console.log("O maior é " + a)
+//     } else {
+//         console.log("O maior é " + b)
+//     }
 
-    if(a % b === 0 ) {
-        console.log(a + " é divisível por " + b)
-    } else {
-        console.log(a + " não é divisível por " + b)
-    }
+//     if(a % b === 0 ) {
+//         console.log(a + " é divisível por " + b)
+//     } else {
+//         console.log(a + " não é divisível por " + b)
+//     }
 
-    if(b % a === 0) {
-        console.log(b + " é divisível por " + a)
-    } else {
-        console.log(b + " não é divisível por " + a)
-    }
+//     if(b % a === 0) {
+//         console.log(b + " é divisível por " + a)
+//     } else {
+//         console.log(b + " não é divisível por " + a)
+//     }
 
-    if(a > b) {
-        console.log("A diferença entre eles é " + (a - b))
-    } else {
-        console.log("A diferença entre eles é " + (b - a))
-    }
+//     if(a > b) {
+//         console.log("A diferença entre eles é " + (a - b))
+//     } else {
+//         console.log("A diferença entre eles é " + (b - a))
+//     }
     
+// }
+
+// numeros(15, 30)
+
+
+// Exercícios de Funções
+// 1.
+function encontraMaiorMenorNumero(array) {
+    
+    let numeros = array;
+    numeros.sort(function(a, b) {
+        return a - b;
+    });
+    
+    let tamanho = numeros.length - 2;
+    let arrayFinal =[numeros[tamanho], numeros[1]]
+    return arrayFinal
+
 }
 
-numeros(15, 30)
+
+const resultado = encontraMaiorMenorNumero([2, 45, 32, 5, 6, 7])
+console.log(resultado)
