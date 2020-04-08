@@ -94,19 +94,26 @@ com uma função da seguinte forma*/
 
 // Exercícios de Funções
 // 1.
-function encontraMaiorMenorNumero(array) {
+// function encontraMaiorMenorNumero(array) {
     
-    let numeros = array;
-    numeros.sort(function(a, b) {
-        return a - b;
-    });
-    
-    let tamanho = numeros.length - 2;
-    let arrayFinal =[numeros[tamanho], numeros[1]]
-    return arrayFinal
+//     let numeros = array;
+//     numeros.sort(function(a, b) {
+//         return a - b;
+//     });
 
+//     let tamanho = numeros.length - 2;
+//     let arrayFinal =[numeros[tamanho], numeros[1]]
+//     return arrayFinal
+
+// }
+
+
+// const resultado = encontraMaiorMenorNumero([2, 45, 32, 5, 6, 7])
+// console.log(resultado)
+
+// 2.
+let alerta = () => {
+    alert("Hello Future4")
 }
 
-
-const resultado = encontraMaiorMenorNumero([2, 45, 32, 5, 6, 7])
-console.log(resultado)
+console.log(alerta())
