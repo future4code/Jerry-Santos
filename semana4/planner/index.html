@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Planner</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Planner</h1>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Adicionar Tarefa -->
+    <section id="entrada">
+        <input type="text" id="tarefa" placeholder="Digite a Tarefa" value="">
+        <select id="dias-da-semana" name="dias">
+            <option value="domingo">Domingo</option>
+            <option value="segunda">Segunda-Feira</option>
+            <option value="terca">Terça-Feira</option>
+            <option value="quarta">Quarta-Feira</option>
+            <option value="quinta">Quinta-Feira</option>
+            <option value="sexta">Sexta-Feira</option>
+            <option value="sabado">Sábado</option>
+        </select>
+        <button id="enviar" onclick="adicionaTarefa()">Adicionar</button>
+    </section>
+    <!-- Fim Adicionar Tarefa -->
+
+    <!-- Conteúdo Planner -->
+    <section id="conteudo-planner">
+        <div class="dias-planner">
+            <h2>Domingo</h2>
+            <ul id="domingo">
+
+            </ul>
+        </div>
+        <div class="dias-planner">
+            <h2>Segunda</h2>
+            <ul id="segunda">
+
+            </ul>
+        </div>
+        <div class="dias-planner">
+            <h2>Terça</h2>
+            <ul id="terca">
+
+            </ul>
+        </div>
+        <div class="dias-planner">
+            <h2>Quarta</h2>
+            <ul id="quarta">
+
+            </ul>
+        </div>
+        <div class="dias-planner">
+            <h2>Quinta</h2>
+            <ul id="quinta">
+
+            </ul>
+        </div>
+        <div class="dias-planner">
+            <h2>Sexta</h2>
+            <ul id="sexta">
+
+            </ul>
+        </div>
+        <div class="dias-planner">
+            <h2>Sábado</h2>
+            <ul id="sabado">
+                
+            </ul>
+        </div>
+    </section>
+    <!-- Fim Conteúdo Planner -->
+</body>
+
+</html>
