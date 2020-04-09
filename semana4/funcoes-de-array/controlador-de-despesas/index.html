@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Controlador de Despesas</title>
+</head>
+<body>
+    <!-- Principal -->
+    <main>
+
+        <!-- Controlador de Despesas -->
+        <section>
+            <h2>Controlador de Despesas</h2>
+            <h3>Cadastrar Despesa</h3>
+            <span>Valor</span>
+            <input type="number" id="valor">
+            <span>Tipo</span>
+            <select id="tipo-cadastro">
+                <option value="">--</option>
+                <option value="Casa">Casa</option>
+                <option value="Lazer">Lazer</option>
+                <option value="Saúde">Saúde</option>
+                <option value="Alimentação">Alimentação</option>
+            </select>
+            <span>Descrição</span>
+            <input type="text" id="descricao">
+            <button id="cadastrar" onclick="cadastraDespesa()">Cadastrar Despesa</button>
+        </section>
+        <!-- Fim de Controlador de Despesas -->
+
+        <!-- Despesas detalhadas -->
+        <section>
+            <h2>Despesas Detalhadas</h2>
+            <span>Tipo</span>
+            <select id="tipo-cadastro">
+                <option value="">--</option>
+                <option value="Casa">Casa</option>
+                <option value="Lazer">Lazer</option>
+                <option value="Saúde">Saúde</option>
+                <option value="Alimentação">Alimentação</option>
+            </select>
+            <span>Valor mínimo</span>
+            <input type="number" id="valor-minimo">
+            <span>Valor máximo</span>
+            <input type="number" id="valor-maximo">
+            <button id="filtrar">Filtrar</button>
+            <button>Limpar Filtros</button>
+            <div id="lista-completa">
+
+            </div>
+        </section>
+        <!-- Fim Despesas detalhadas -->
+
+        <!-- Extrato -->
+        <section>
+            <h2>Extrato</h2>
+            <h3>Valor Total:</h3>
+        </section>
+        <!-- Fim Extrato -->
+
+    </main>
+    <!-- Fim Principal -->
+</body>
+</html>
