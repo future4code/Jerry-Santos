@@ -112,8 +112,28 @@ com uma função da seguinte forma*/
 // console.log(resultado)
 
 // 2.
-let alerta = () => {
-    alert("Hello Future4")
+// let alerta = () => {
+//     alert("Hello Future4")
+// }
+
+// console.log(alerta())
+
+
+// Exercícios de Objetos
+/* 1. Arrays são estruturas que nos permitem armazenar e acessar mais de um dado (de diferentes tipos). 
+Objetos são estruturas para armazenar dados mais complexos, em pares de chave/valor. */
+
+// 2.
+
+function criarRetangulo(lado1, lado2) {
+    const retangulo = {
+        largura: lado1,
+        altura: lado2,
+        perimetro: 2*(lado1 + lado2),
+        area: lado1 * lado2
+    }
+    return retangulo
 }
 
-console.log(alerta())
+let resultado = criarRetangulo(2, 3);
+console.log(resultado);
