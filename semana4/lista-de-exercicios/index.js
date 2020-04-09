@@ -139,11 +139,27 @@ Objetos são estruturas para armazenar dados mais complexos, em pares de chave/v
 // console.log(resultado);
 
 // 3.
-const filme = {
-    nome: "Senhor dos Anéis",
-    ano: 2001,
-    diretor: "Peter Jackson",
-    atores: ["Elijah W.", "Ian McKellen", "Viggo M.", "Orlando B."],
+// const filme = {
+//     nome: "Senhor dos Anéis",
+//     ano: 2001,
+//     diretor: "Peter Jackson",
+//     atores: ["Elijah W.", "Ian McKellen", "Viggo M.", "Orlando B."],
+// }
+
+// console.log("Venha assistir ao filme " + filme.nome + ", de " + filme.ano + ", dirigido por " + filme.diretor + " e estrelado por " + filme.atores[0] + ", " + filme.atores[1] + ", " + filme.atores[2] + " e " + filme.atores[3] + ".");
+
+// 4.
+const pessoa1 = {
+    nome: "Zé",
+    idade: 45,
+    email: "ze@cabrabom.com.br",
+    endereco: "Vila São Pedro 88"
 }
 
-console.log("Venha assistir ao filme " + filme.nome + ", de " + filme.ano + ", dirigido por " + filme.diretor + " e estrelado por " + filme.atores[0] + ", " + filme.atores[1] + ", " + filme.atores[2] + " e " + filme.atores[3] + ".");
+const pessoa2 = {
+    ... pessoa1,
+    nome: "ANÔNIMO"
+}
+
+console.log(pessoa1);
+console.log(pessoa2);
