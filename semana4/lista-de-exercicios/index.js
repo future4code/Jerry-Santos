@@ -125,15 +125,25 @@ Objetos são estruturas para armazenar dados mais complexos, em pares de chave/v
 
 // 2.
 
-function criarRetangulo(lado1, lado2) {
-    const retangulo = {
-        largura: lado1,
-        altura: lado2,
-        perimetro: 2*(lado1 + lado2),
-        area: lado1 * lado2
-    }
-    return retangulo
+// function criarRetangulo(lado1, lado2) {
+//     const retangulo = {
+//         largura: lado1,
+//         altura: lado2,
+//         perimetro: 2*(lado1 + lado2),
+//         area: lado1 * lado2
+//     }
+//     return retangulo
+// }
+
+// let resultado = criarRetangulo(2, 3);
+// console.log(resultado);
+
+// 3.
+const filme = {
+    nome: "Senhor dos Anéis",
+    ano: 2001,
+    diretor: "Peter Jackson",
+    atores: ["Elijah W.", "Ian McKellen", "Viggo M.", "Orlando B."],
 }
 
-let resultado = criarRetangulo(2, 3);
-console.log(resultado);
+console.log("Venha assistir ao filme " + filme.nome + ", de " + filme.ano + ", dirigido por " + filme.diretor + " e estrelado por " + filme.atores[0] + ", " + filme.atores[1] + ", " + filme.atores[2] + " e " + filme.atores[3] + ".");
