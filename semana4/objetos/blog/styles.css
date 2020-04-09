@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Fim Header */
+
+
+/* Principal */
+main {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Fim Principal */
+
+
+/* Criar Post */
+section#criar-post {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+input, textarea {
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+input {
+    border: none;
+    border-bottom: 0.1rem solid grey;
+}
+
+/* Fim Criar Post */
+
+
+/* Posts */
+section#posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 50rem;
+}
+
+div{
+    margin: 3rem;
+}
+
+/* Fim Posts */
