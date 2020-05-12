@@ -3,7 +3,7 @@ import "./styles.css";
 import axios from "axios";
 import PokeCard from "./components/PokeCard";
 
-function App() {
+export default function App() {
   const [pokeList, setPokeList] = useState([]);
   const [pokeName, setPokeName] = useState('');
 
@@ -41,5 +41,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
