@@ -1,0 +1,11 @@
+{
+  "id": "LAB8375252",
+  "name": "Joe",
+  "email": "joe@labenu.com.br",
+  "birthDate": "1982-10-15T03:00:00.000Z",
+  "hobbies": [
+    "Jogar futebol",
+    "Filmes",
+    "Carros"
+  ]
+}

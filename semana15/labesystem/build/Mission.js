@@ -39,6 +39,9 @@ class Mission {
     addTeacher(teacher) {
         this.teachers.push(teacher);
     }
+    addStudent(student) {
+        this.students.push(student);
+    }
     setName(name) {
         this.name = name;
     }

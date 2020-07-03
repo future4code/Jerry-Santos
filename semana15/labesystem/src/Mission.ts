@@ -47,6 +47,10 @@ export abstract class Mission {
         this.teachers.push(teacher);
     }
 
+    public addStudent(student: Student): void {
+        this.students.push(student);
+    }
+
     public setName(name: string): void {
         this.name = name;
     }
