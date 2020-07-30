@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Wilson das Neves",
+    "cpf": "939.847.838-94",
+    "birthDate": "1920-12-12T03:00:00.000Z",
+    "accountBalance": 0,
+    "accountStatement": []
+  },
+  {
+    "name": "Monarco da Portela",
+    "cpf": "875.643.562-32",
+    "birthDate": "1930-12-02T03:00:00.000Z",
+    "accountBalance": 0,
+    "accountStatement": []
+  },
+  {
+    "name": "Noca da Portela",
+    "cpf": "358.756.435-42",
+    "birthDate": "1934-02-04T03:00:00.000Z",
+    "accountBalance": 0,
+    "accountStatement": []
+  },
+  {
+    "name": "Antonio Vieira",
+    "cpf": "846.243.132-11",
+    "birthDate": "1921-10-01T03:00:00.000Z",
+    "accountBalance": 0,
+    "accountStatement": []
+  },
+  {
+    "name": "Manaceia",
+    "cpf": "993.455.666-99",
+    "birthDate": "02/06/1927",
+    "accountBalance": 0,
+    "accountStatement": []
+  }
+]
