@@ -1,0 +1,15 @@
+a. Não
+
+b. "Missing Input"
+
+c. "Missing Input"
+
+d. "Missing email"
+
+e. "Invalid password"
+
+f. "User is correct"
+
+g. No terceiro 'if' da função que é sobre o e-mail.
+
+h. O objeto passado para a questão f retorna 200
