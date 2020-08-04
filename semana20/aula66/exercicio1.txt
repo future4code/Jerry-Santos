@@ -1,0 +1,3 @@
+Tive dificuldade pra instalar o mysql, 
+mas consegui solucionar e deu tudo certo.
+A parte mais fácil foi ativar a porta 3306 pra ser acessada por fora.

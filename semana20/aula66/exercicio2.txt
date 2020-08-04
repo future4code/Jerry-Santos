@@ -1,0 +1,10 @@
+3. ssh -i chaves.pem ubuntu@id_da_maquina
+
+4. Fiz um git clone na pasta pra clonar na instância. 
+Depois acessei a mesma pasta com cd pra entrar na pasta do projeto.
+Rodei um npm i pra instalar as dependências e um npm run start pra rodar o projeto.
+
+6. npm run build pra buildar o projeto, depois acessar a pasta de build, 
+instalar o python e rodar a pasta na porta 80
+
+7. Foi bem similar o processo inteiro.
